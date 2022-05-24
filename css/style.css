@@ -1,0 +1,1899 @@
+    html {
+        height: 100%;
+    }
+    
+    body {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    
+    header {
+        flex: 0 0 auto;
+    }
+    
+    main {
+        flex: 1 0 auto;
+    }
+    
+    footer {
+        flex: 0 0 auto;
+    }
+    
+    body,
+    input,
+    button,
+    select,
+    option {
+        font-family: 'Roboto';
+        font-size: 16px;
+        line-height: 110%;
+        font-weight: 400;
+    }
+    
+    button {
+        cursor: pointer;
+    }
+    
+    h2 {
+        font-family: 'Tenor Sans';
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 70px;
+        text-align: center;
+        color: #87A646;
+        padding: 100px 0 60px;
+    }
+    
+    .container {
+        max-width: 1200px;
+        padding: 0px 20px;
+        margin: 0 auto;
+        box-sizing: content-box;
+    }
+    
+    .hero-one-container {
+        max-width: 600px;
+        margin: 0 0 0 auto;
+    }
+    
+    .header-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 25px 0;
+    }
+    
+    .nav {
+        display: flex;
+        align-items: center;
+    }
+    
+    .nav ul {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+    }
+    
+    .nav a {
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 23px;
+        color: #454545;
+    }
+    
+    .where-to-buy-btn {
+        padding: 18px 50px;
+        background: #87A646;
+        border-radius: 50px;
+    }
+    
+    .where-to-buy-btn a {
+        font-weight: 400;
+        color: #FFFFFF;
+    }
+    
+    .hero {
+        display: flex;
+        height: 708px;
+    }
+    
+    .hero-one,
+    .hero-two {
+        width: 50%;
+    }
+    
+    .hero-one {
+        background: #F3F6EC;
+    }
+    
+    .hero-two {
+        background-color: #F3F6EC;
+        background-image: url(../img/hero.jpg);
+        background-position: 100%;
+        background-repeat: no-repeat;
+    }
+    
+    .hero h1 {
+        font-family: 'Philosopher';
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 130%;
+        color: #022859;
+        padding-top: 44px;
+    }
+    
+    .skin-changes-container {
+        display: flex;
+        gap: 50px;
+    }
+    
+    .skin-changes-img {
+        /* width: 100%; */
+        max-width: 588px;
+        max-height: 404px;
+        display: flex;
+    }
+    
+    .skin-changes-img img {
+        width: 100%;
+    }
+    
+    .why-la-grap-img {
+        width: 50%;
+    }
+    
+    .why-la-grap-img img {
+        width: 100%;
+    }
+    
+    .skin-changes-contain h3,
+    .theory-contain h3 {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 150%;
+        color: #022859;
+        padding: 40px 0 33px;
+    }
+    
+    .skin-changes-contain p,
+    .theory-contain p {
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 150%;
+        color: #454545;
+        max-width: 484px;
+        padding-bottom: 41px;
+    }
+    
+    .skin-changes-contain span {
+        color: #87A646;
+        font-weight: 500;
+    }
+    
+    .skin-changes-desc {
+        background: #F3F6EC;
+    }
+    
+    .skin-changes-desc p {
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 150%;
+        text-align: center;
+        color: #022859;
+        max-width: 800px;
+        padding: 40px 0;
+        margin: 0 auto;
+    }
+    
+    .skin-changes-desc span {
+        font-weight: 600;
+    }
+    
+    .theory {
+        display: flex;
+        gap: 50px;
+        border: 3px solid #87A646;
+    }
+    
+    .theory-img {
+        max-width: 588px;
+        max-height: 492px;
+        display: flex;
+    }
+    
+    .theory-img img {
+        width: 100%;
+    }
+    
+    .theory-contain h3 {
+        padding: 58px 0 30px;
+    }
+    
+    .theory-contain p {
+        padding-bottom: 54px;
+        padding-right: 20px;
+    }
+    
+    .theory-link {
+        display: flex;
+        justify-content: end;
+    }
+    
+    .aging-link {
+        padding-right: 20px;
+        padding-bottom: 57px;
+    }
+    
+    .reason-link {
+        justify-content: flex-start;
+    }
+    
+    .theory-link a {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        color: #87A646;
+    }
+    
+    .factors-container {
+        padding: 80px 0 105px;
+        background: #022859;
+    }
+    
+    .factors {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .factor span {
+        display: flex;
+        justify-content: center;
+        font-family: 'Tenor Sans';
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 35px;
+        color: #FFFFFF;
+        border-bottom: 2px solid #87A646;
+        padding-bottom: 18px;
+    }
+    
+    .la-grap-contain {
+        padding-left: 110px;
+    }
+    
+    .factor ul,
+    .la-grap-contain ul,
+    .beauty-la-grap-first-list ul,
+    .beauty-la-grap-second-list ul {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        padding-top: 28px;
+        max-width: 442px;
+    }
+    
+    .factor ul li {
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 150%;
+        color: #FFFFFF;
+        display: flex;
+        align-items: center;
+    }
+    
+    .factor ul li:before,
+    .beauty-la-grap-first-list ul li:before,
+    .beauty-la-grap-second-list ul li:before,
+    .la-grap-contain ul li:before {
+        content: "➜";
+        padding-right: 25px;
+    }
+    
+    .reasons h3 {
+        padding: 60px 0 50px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 35px;
+        color: #87A646;
+    }
+    
+    .reason {
+        display: flex;
+        justify-content: space-between;
+        border: 3px solid #87A646;
+    }
+    
+    .reason-img img {
+        width: 100%;
+        max-width: 585px;
+        max-height: 486px;
+        display: flex;
+    }
+    
+    .reason-desc {
+        padding: 120px 0 0 78px;
+    }
+    
+    .reason-desc p {
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 150%;
+        color: #FFFFFF;
+        padding-bottom: 50px;
+        max-width: 440px;
+    }
+    
+    .la-grap h2 {
+        padding-bottom: 20px;
+    }
+    
+    .la-grap-container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    .la-grap-contain h3 {
+        padding-top: 60px;
+        max-width: 530px;
+        font-family: 'Tenor Sans';
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 150%;
+        color: #022859;
+    }
+    
+    .la-grap-contain ul li {
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 150%;
+        color: #454545;
+        display: flex;
+        align-items: center;
+    }
+    
+    .la-grap-contain ul li:before {
+        color: #87A646;
+    }
+    
+    .del-span {
+        display: flex;
+    }
+    
+    .la-grap-img img {
+        width: 100%;
+        max-width: 535px;
+        max-height: 466px;
+        display: flex;
+    }
+    
+    .la-grap-exp {
+        padding: 80px 0 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .la-grap-exp span {
+        font-family: 'Tenor Sans';
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 70px;
+        color: #87A646;
+    }
+    
+    .la-grap-exp p {
+        font-family: 'Tenor Sans';
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 35px;
+        color: #87A646;
+        max-width: 590px;
+    }
+    
+    .la-grap-desc {
+        background-color: rgb(135, 166, 70, 0.1);
+        background-image: url(../img/la-grap-desc-mask.png);
+        background-repeat: no-repeat;
+    }
+    
+    .la-grap-desc p {
+        font-family: 'Roboto';
+        font-weight: 300;
+        font-size: 24px;
+        max-width: 700px;
+        line-height: 150%;
+        color: #454545;
+    }
+    
+    .la-grap-desc span {
+        font-weight: 600;
+        color: #87A646;
+    }
+    
+    .la-grap-desc-first {
+        padding: 60px 80px 40px 200px;
+        display: flex;
+        justify-content: end;
+    }
+    
+    .la-grap-desc-second {
+        padding: 0 84px 53px 200px;
+        display: flex;
+        justify-content: end;
+    }
+    
+    .la-grap-desc-second p {
+        border: 3px solid #87A646;
+        max-width: 600px;
+        padding: 40px;
+    }
+    
+    .beauty-la-grap-first {
+        display: flex;
+        height: 555px;
+    }
+    
+    .beauty-la-grap-first-list {
+        background: #87A646;
+    }
+    
+    .beauty-la-grap-second-list {
+        background: #022859;
+        display: flex;
+        justify-content: end;
+    }
+    
+    .beauty-la-grap-second {
+        display: flex;
+        height: 544px;
+    }
+    
+    .choose-items {
+        display: flex;
+    }
+    
+    .choose-item {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 33.33%;
+    }
+    
+    .choose-item:nth-child(3) {
+        background: #F3F6EC;
+    }
+    
+    .chooses-text {
+        border: 3px solid #87A646;
+        padding: 40px 0;
+        margin: 60px 0 100px;
+    }
+    
+    .why-la-grap-container {
+        display: flex;
+        gap: 60px;
+    }
+    
+    .la-grap-benefit {
+        padding-bottom: 28px;
+        border-bottom: 1px solid #87A646;
+    }
+    
+    .la-grap-benefit:nth-child(4) {
+        border: none;
+    }
+    
+    .la-grap-benefit h3 {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 150%;
+        color: #022859;
+        padding-bottom: 8px;
+    }
+    
+    .la-grap-benefits {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        width: 50%;
+    }
+    
+    .la-grap-benefit span {
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 30px;
+        color: #454545;
+    }
+    
+    .faq-sec {
+        background: #022859;
+    }
+    
+    .faq-list {
+        display: flex;
+        flex-direction: column;
+        max-width: 697px;
+        gap: 20px;
+    }
+    /* скрываем чекбоксы и блоки с содержанием */
+    
+    .hide,
+    .hide+label~div {
+        display: none;
+    }
+    
+    .faq-list label {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 150%;
+        color: #FFFFFF;
+    }
+    /* вид текста label */
+    
+    .hide+label {
+        margin: 0;
+        padding: 0;
+        /* color: green; */
+        cursor: pointer;
+        display: inline-block;
+    }
+    /* вид текста label при активном переключателе */
+    
+    .hide:checked+label {
+        /* color: red; */
+        border-bottom: 0;
+    }
+    /* когда чекбокс активен показываем блоки с содержанием  */
+    
+    .hide:checked+label+div {
+        display: block;
+        -moz-box-shadow: inset 3px 3px 10px #7d8e8f;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 150%;
+        /* or 30px */
+        color: #FFFFFF;
+        margin-left: 55px;
+        padding: 10px;
+        /* чуточку анимации при появлении */
+        -webkit-animation: fade ease-in 0.5s;
+        -moz-animation: fade ease-in 0.5s;
+        animation: fade ease-in 0.5s;
+    }
+    /* анимация при появлении скрытых блоков */
+    
+    @-moz-keyframes fade {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1
+        }
+    }
+    
+    @-webkit-keyframes fade {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1
+        }
+    }
+    
+    @keyframes fade {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1
+        }
+    }
+    
+    .faq-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .hide+label:before {
+        color: #87A646;
+        content: "↓";
+        border: 2px solid #87A646;
+        display: block;
+        float: left;
+        font-size: 26px;
+        font-weight: bold;
+        height: 30px;
+        line-height: 25px;
+        margin: 3px 5px;
+        text-align: center;
+        width: 30px;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        margin-right: 25px;
+        margin-bottom: 40px;
+    }
+    
+    .hide:checked+label:before {
+        content: "↑";
+    }
+    
+    .faq-sec h2 {
+        color: #FFFFFF;
+        padding-bottom: 30px;
+    }
+    
+    .faq-link {
+        padding: 60px 0 100px;
+    }
+    
+    .choose-item-img {
+        display: flex;
+        justify-content: center;
+        padding-top: 17px;
+    }
+    
+    .choose-item-img img {
+        max-width: 314px;
+        max-height: 322px;
+    }
+    
+    .choose-title h3 {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 35px;
+        text-align: center;
+        /* 2 */
+        color: #87A646;
+        padding: 30px 0 15px;
+    }
+    
+    .choose-title span {
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 23px;
+        display: flex;
+        justify-content: center;
+        color: #454545;
+        padding-bottom: 44px;
+    }
+    
+    .chooses-text p {
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 150%;
+        /* or 36px */
+        text-align: center;
+        margin: 0 auto;
+        color: #454545;
+        max-width: 880px;
+    }
+    
+    .chooses-text span {
+        color: #87A646;
+        font-weight: 500;
+    }
+    
+    .first-beauty-la-grap-img {
+        background: #87A646;
+        background-image: url(../img/first-beauty-la-grap-img.jpg);
+        background-position: center;
+        display: flex;
+        background-repeat: no-repeat;
+    }
+    
+    .second-beauty-la-grap-img {
+        background: #022859;
+        background-image: url(../img/second-la-grap-img.jpg);
+        background-position: center;
+        display: flex;
+        background-repeat: no-repeat;
+    }
+    
+    .first-beauty-la-grap-img,
+    .second-beauty-la-grap-img,
+    .beauty-la-grap-first-list,
+    .beauty-la-grap-second-list {
+        width: 50%;
+    }
+    
+    .beauty-la-grap-first-list ul li,
+    .beauty-la-grap-second-list ul li {
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 150%;
+        color: #FFFFFF;
+        display: flex;
+        align-items: center;
+    }
+    
+    .beauty-la-grap-first-list ul {
+        margin: 130px 0 0 93px;
+    }
+    
+    .beauty-la-grap-second-list ul {
+        margin: 130px 20px 0 0;
+    }
+    
+    .where-to-buy-sec p {
+        /* display: flex; */
+        margin: 0 auto 60px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 150%;
+        text-align: center;
+        color: #454545;
+        max-width: 665px;
+    }
+    
+    .select-wrap {
+        display: flex;
+        justify-content: center;
+    }
+    
+    select {
+        /* styling */
+        background-color: white;
+        border: 1px solid #87A646;
+        display: inline-block;
+        font: inherit;
+        line-height: 1.5em;
+        color: #87A646;
+        font-weight: 500;
+        font-size: 18px;
+        padding: 0.5em 3.5em 0.5em 1em;
+        /* reset */
+        margin: 0;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+    }
+    /* arrows */
+    
+    select.select-where-to-buy {
+        background-image: linear-gradient(45deg, transparent 50%, white 50%), linear-gradient(135deg, white 50%, transparent 50%), linear-gradient(to right, #87A646, #87A646);
+        background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), 100% 0;
+        background-size: 5px 5px, 5px 5px, 2.5em 2.5em;
+        background-repeat: no-repeat;
+    }
+    
+    select.select-where-to-buy:focus {
+        background-image: linear-gradient(45deg, white 50%, transparent 50%), linear-gradient(135deg, transparent 50%, white 50%), linear-gradient(to right, #87A646, #87A646);
+        background-position: calc(100% - 15px) 1em, calc(100% - 20px) 1em, 100% 0;
+        background-size: 5px 5px, 5px 5px, 2.5em 2.5em;
+        background-repeat: no-repeat;
+        border-color: #87A646;
+        outline: 0;
+    }
+    
+    .where-to-buy-sec-imgs {
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        padding: 60px 0 100px;
+    }
+    
+    .useful-materials {
+        background: #F3F6EC;
+    }
+    
+    .materials {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .materials-item {
+        width: 32%;
+        border: 3px solid #87A646;
+    }
+    
+    .materials-item-title {
+        padding: 30px 0;
+    }
+    
+    .materials-item-img {
+        overflow: hidden;
+    }
+    
+    .materials-item-img img {
+        max-width: 389px;
+        max-height: 330px;
+    }
+    
+    .materials-item-title h3 {
+        margin: 0 auto;
+        max-width: 290px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 150%;
+        /* or 30px */
+    }
+    
+    .materials-item-title a {
+        color: #454545;
+    }
+    
+    .materials-link {
+        padding: 60px 0 100px;
+    }
+    /* footer */
+    
+    footer {
+        background: #022859;
+    }
+    
+    .footer-top-row {
+        padding: 40px 0 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 2px solid rgb(255, 255, 255, 0.2);
+    }
+    
+    .logo-and-text p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #FFFFFF;
+        max-width: 239px;
+    }
+    
+    .logo-and-text,
+    .footer-nav ul {
+        display: flex;
+    }
+    
+    .logo-and-text {
+        gap: 20px;
+        align-items: center;
+    }
+    
+    .footer-nav ul {
+        gap: 50px;
+    }
+    
+    .footer-nav ul li a {
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 150%;
+        color: #FFFFFF;
+    }
+    
+    .footer-bottom-row ul {
+        padding: 40px 0;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .footer-bottom-row ul li a {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #FFFFFF;
+    }
+    
+    .footer-warning {
+        padding-bottom: 22px;
+    }
+    
+    .footer-warning p {
+        font-weight: 300;
+        font-size: 33px;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 0.3);
+    }
+    
+    .page-title {
+        background: #F3F6EC;
+        margin-bottom: 60px;
+    }
+    
+    .page-title h1 {
+        font-family: 'Tenor Sans';
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 70px;
+        text-align: center;
+        color: #87A646;
+        padding: 135px 0;
+    }
+    
+    .materials-solo {
+        flex-wrap: wrap;
+        gap: 15px;
+        padding-bottom: 80px;
+    }
+    
+    .where-to-buy-solo .container {
+        display: flex;
+        padding-bottom: 70px;
+    }
+    
+    .where-to-buy-solo p {
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 150%;
+        color: #454545;
+        max-width: 645px;
+        padding-bottom: 60px;
+    }
+    
+    .where-to-buy-solo .where-to-buy-sec-imgs {
+        justify-content: start;
+        padding: 60px 0 0;
+    }
+    
+    .faq-list-solo label {
+        color: #87A646;
+        padding-top: 10px;
+    }
+    
+    .faq-list-solo label[for="hd-1"] {
+        padding-top: 0px;
+    }
+    
+    .faq-container-solo {
+        max-width: 1000px;
+        padding: 0;
+        margin: 0 auto;
+    }
+    
+    .faq-list-solo {
+        max-width: none;
+        gap: 20px;
+    }
+    
+    .faq-list-solo .hide:checked+label+div {
+        margin-left: 0;
+        padding: 30px 50px 30px 65px;
+        background: #F3F6EC;
+        color: #454545;
+    }
+    
+    .ask-question-btn {
+        padding: 60px 0 100px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .ask-question-btn a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 282px;
+        height: 60px;
+        color: #FFFFFF;
+        background: #87A646;
+        border-radius: 50px;
+    }
+    
+    .title-txt-container {
+        max-width: 600px;
+        margin: 0 0 0 auto;
+    }
+    
+    .article-page-title {
+        display: flex;
+        height: 473px;
+    }
+    
+    .title-txt,
+    .article-page-img {
+        width: 50%;
+    }
+    
+    .title-txt {
+        background: #F3F6EC;
+    }
+    
+    .article-page-img {
+        background-color: #F3F6EC;
+        background-image: url(../img/test-article-photo.png);
+        background-position: 20%;
+        background-repeat: no-repeat;
+    }
+    
+    .article-page-title h1 {
+        padding: 110px 0;
+        font-family: 'Tenor Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 140%;
+        color: #87A646;
+    }
+    
+    .article-container p {
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 150%;
+        color: #454545;
+        padding: 20px 0;
+    }
+    
+    .article-container img {
+        width: 100%;
+    }
+    
+    .article-desc {
+        border-left: 3px solid #87A646;
+        padding: 30px 0 30px 35px;
+        margin: 40px 0;
+    }
+    
+    .article-desc p {
+        font-size: 30px;
+        padding: 0;
+    }
+    
+    .article-container h2 {
+        font-family: 'Tenor Sans';
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 120%;
+        color: #87A646;
+        padding: 40px 0;
+        text-align: left;
+    }
+    
+    .green-wrapper {
+        background: #87A646;
+    }
+    
+    .green-wrapper .container {
+        padding: 50px 20px;
+    }
+    
+    .green-wrapper-text {
+        border-left: 3px solid white;
+    }
+    
+    .green-wrapper-text p {
+        font-size: 30px;
+        color: #FFFFFF;
+        padding-left: 30px;
+    }
+    
+    .article-container ol {
+        list-style-type: decimal;
+    }
+    
+    .article-container ul li::before {
+        color: #87A646;
+        content: "\2022";
+        padding-right: 18px;
+        font-size: 50px;
+    }
+    
+    .article-container ul li,
+    .article-container ol li {
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 160%;
+        /* or 32px */
+        color: #454545;
+        display: flex;
+    }
+    
+    .article-container span {
+        display: flex;
+        font-size: 24px;
+        line-height: 127.19%;
+        /* identical to box height, or 31px */
+        color: #454545;
+        padding: 20px 0;
+    }
+    
+    .articles-links {
+        display: flex;
+        justify-content: space-between;
+        padding: 100px 0;
+        align-items: center;
+    }
+    
+    .articles-links span {
+        display: inline-flex;
+    }
+    
+    .arrow-reverse {
+        transform: rotate(180deg);
+    }
+    
+    .articles-links a,
+    .articles-links span {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        color: #87A646;
+    }
+    
+    #mob-menu-list {
+        display: none;
+        background: #87A646;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+        font-size: 18px;
+    }
+    
+    .mob-menu-btn {
+        display: none;
+        align-items: center;
+        justify-content: center;
+        width: 74px;
+        height: 74px;
+    }
+    
+    #mob-menu-list a {
+        color: white;
+    }
+    
+    .hamburger {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        width: 50px;
+        height: fit-content;
+        margin: 20px auto;
+    }
+    
+    .hamburger hr {
+        width: 100%;
+        height: 5px;
+        border: none;
+        background: #87A646;
+        border-radius: 20%;
+        margin: 0 0 0 auto;
+    }
+    
+    .materials-solo {
+        justify-content: center;
+    }
+    /* media */
+    
+    @media (max-width: 1219.98px) {
+        .hero-one-container {
+            max-width: 600px;
+            margin: 0 0 0 20px;
+        }
+        .hero-two {
+            background-position-x: 70%;
+        }
+        .why-la-grap-container {
+            gap: 20px;
+        }
+        .article-page-title h1 {
+            padding: 55px 20px;
+        }
+    }
+    
+    @media (max-width: 1174.98px) {
+        .la-grap-benefit h3 {
+            font-size: 20px;
+            padding-bottom: 8px;
+        }
+    }
+    
+    @media (max-width: 1120.98px) {
+        .skin-changes-container {
+            gap: 20px;
+        }
+        .skin-changes-contain h3 {
+            padding: 33px 0 20px;
+        }
+        .skin-changes-contain p {
+            padding-bottom: 34px;
+        }
+        .theory {
+            gap: 20px;
+        }
+        .la-grap-benefit span {
+            font-size: 16px;
+            line-height: 24px;
+        }
+        .beauty-la-grap-second-list ul {
+            margin: 87px 20px 0 0;
+        }
+        .beauty-la-grap-first-list ul {
+            margin: 87px 0 0 20px;
+        }
+        .where-to-buy-solo-img {
+            display: none;
+        }
+        .where-to-buy-solo .container {
+            justify-content: center;
+        }
+        .where-to-buy-solo-container select {
+            width: 100%;
+        }
+        .where-to-buy-solo .where-to-buy-sec-imgs {
+            justify-content: space-between;
+            padding: 40px 0 0;
+            gap: 0;
+        }
+    }
+    
+    @media (max-width: 1049.98px) {
+        .theory-contain h3 {
+            padding: 30px 0 20px;
+        }
+        .theory-contain p {
+            padding-bottom: 20px;
+        }
+        .materials-item-title h3 {
+            font-size: 18px;
+        }
+        .materials-item-title {
+            padding: 30px;
+        }
+        .materials-item {
+            width: 38%;
+        }
+        .useful-materials .materials-item:nth-child(3) {
+            display: none;
+        }
+        .materials-item-img img {
+            width: 100%;
+            /* max-width: 389px; */
+            max-height: 205px;
+        }
+        .la-grap-benefit {
+            padding-bottom: 10px;
+        }
+        .reasons h3 {
+            padding: 40px 0;
+            font-size: 20px;
+            line-height: 23px;
+        }
+        .reason-desc {
+            padding: 50px 30px 0 20px;
+        }
+        .article-page-title h1 {
+            font-size: 50px;
+        }
+        .article-desc p {
+            font-size: 20px;
+            padding: 0;
+        }
+        .article-desc {
+            padding: 20px 0 20px 17px;
+        }
+        .green-wrapper .container {
+            padding: 22px 20px;
+        }
+    }
+    
+    @media (max-width: 949.98px) {
+        nav.footer-nav {
+            display: none;
+        }
+        .footer-top-row {
+            padding: 50px 0;
+        }
+        .footer-bottom-row ul {
+            padding: 40px 0 25px;
+            justify-content: space-between;
+        }
+        .footer-bottom-row ul li a {
+            font-size: 14px;
+        }
+        .footer-warning p {
+            font-size: 24px;
+        }
+        .la-grap-benefits {
+            gap: 10px;
+        }
+        .why-la-grap-img img {
+            height: 390px;
+        }
+        .reason-desc p {
+            font-size: 16px;
+            padding-bottom: 20px;
+            max-width: 440px;
+        }
+        .la-grap-contain h3 {
+            padding-top: 30px;
+            font-size: 20px;
+        }
+        .la-grap-contain {
+            padding-left: 40px;
+        }
+        .la-grap-contain ul {
+            padding-top: 20px
+        }
+        .la-grap-contain ul li {
+            font-size: 16px;
+        }
+        .la-grap-exp span {
+            font-size: 40px;
+            line-height: 47px;
+        }
+        .la-grap-exp p {
+            font-size: 20px;
+            line-height: 23px;
+            max-width: 500px;
+        }
+        .la-grap-exp {
+            padding: 80px 0 40px;
+        }
+        .la-grap-desc p {
+            font-size: 16px;
+        }
+        .la-grap-desc {
+            background-position-x: -15%;
+        }
+        .la-grap-desc-second p {
+            padding: 29px 40px;
+        }
+        .where-to-buy-solo p {
+            font-size: 20px;
+            max-width: 645px;
+            padding-bottom: 40px;
+        }
+    }
+    
+    @media (max-width: 899.98px) {
+        .nav ul {
+            gap: 30px;
+        }
+        .nav a {
+            font-size: 16px;
+            line-height: 19px;
+        }
+        .where-to-buy-btn {
+            padding: 14px 40px;
+        }
+        h2 {
+            font-size: 40px;
+            line-height: 47px;
+            padding: 60px 0 40px;
+        }
+        .skin-changes-contain h3 {
+            font-size: 20px;
+        }
+        .skin-changes-contain p {
+            font-size: 16px;
+        }
+        .skin-changes-desc p {
+            font-size: 20px;
+            padding: 30px 60px;
+        }
+        .theory-contain h3 {
+            font-size: 20px;
+        }
+        .theory-contain p {
+            font-size: 16px;
+            max-width: 484px;
+        }
+        .aging-link {
+            padding-bottom: 25px;
+        }
+        .theory-link a {
+            font-size: 18px;
+        }
+        .where-to-buy-sec p {
+            margin: 0 auto 40px;
+            font-size: 18px;
+            max-width: 500px;
+        }
+        .where-to-buy-sec-imgs {
+            padding: 40px 0 60px;
+        }
+        select {
+            width: 75%;
+        }
+        .choose-item-img img {
+            max-width: 225px;
+            max-height: 251px;
+        }
+        .choose-title h3 {
+            font-size: 20px;
+            line-height: 23.44px;
+            padding: 30px 0 0;
+        }
+        .choose-title span {
+            font-size: 16px;
+            line-height: 18.75px;
+            padding-bottom: 24px;
+        }
+        .chooses-text {
+            border: 3px solid #87A646;
+            padding: 25px 0;
+            margin: 40px 0 60px;
+        }
+        .chooses-text p {
+            font-size: 20px;
+            max-width: 600px;
+        }
+        .faq-list label {
+            font-size: 20px;
+        }
+        .hide:checked+label+div {
+            font-size: 16px;
+        }
+        .faq-list {
+            max-width: 550px;
+        }
+        .faq-link {
+            padding: 40px 0 70px;
+        }
+        .factor span {
+            font-size: 20px;
+            line-height: 23.4px;
+            padding-bottom: 10px;
+        }
+        .factors-container {
+            padding: 40px 0 50px;
+        }
+        .factor ul li {
+            font-size: 16px;
+        }
+        .factor ul {
+            max-width: 388px;
+            gap: 20px;
+        }
+        .beauty-la-grap-first {
+            height: 355px;
+        }
+        .beauty-la-grap-second {
+            height: 355px;
+        }
+        .second-beauty-la-grap-img {
+            background-size: 160%;
+        }
+        .first-beauty-la-grap-img {
+            background-size: 165%;
+        }
+        .beauty-la-grap-second-list ul {
+            margin: 27px 20px 0 20px;
+        }
+        .beauty-la-grap-first-list ul {
+            margin: 27px 0 0 20px;
+        }
+        .beauty-la-grap-first-list ul li,
+        .beauty-la-grap-second-list ul li {
+            font-size: 16px;
+        }
+        .beauty-la-grap-second-list ul {
+            gap: 20px;
+            padding-top: 28px;
+        }
+        .page-title h1 {
+            font-size: 40px;
+            line-height: 47px;
+            padding: 75px 0;
+        }
+        .faq-list-solo {
+            max-width: none;
+            width: 100%;
+        }
+        .faq-list-solo .hide:checked+label+div {
+            margin-left: 0;
+            padding: 27px 18px 27px 61px;
+            background: #F3F6EC;
+            color: #454545;
+        }
+        .article-container p {
+            font-size: 16px;
+            padding: 10px 0;
+        }
+        .article-container h2 {
+            font-size: 40px;
+            padding: 20px 0;
+        }
+        .article-container ul li,
+        .article-container ol li {
+            font-size: 16px;
+        }
+        .article-container span {
+            font-size: 20px;
+            padding: 10px 0;
+        }
+        .green-wrapper-text p {
+            font-size: 20px;
+            padding-left: 17px;
+        }
+    }
+    
+    @media (max-width: 799.98px) {
+        .hero h1 {
+            font-size: 50px;
+            padding: 40px 0 27px;
+        }
+        .materials-item {
+            width: 48%;
+        }
+        .article-page-title h1 {
+            font-size: 40px;
+        }
+        .article-page-title {
+            display: flex;
+            height: 522px;
+            flex-direction: column;
+        }
+        .title-txt-container {
+            max-width: 100%;
+            margin: 0 0 0 auto;
+        }
+        .article-page-img {
+            height: 300px;
+            background-position: inherit;
+        }
+        .title-txt,
+        .article-page-img {
+            width: 100%;
+        }
+    }
+    
+    @media (max-width: 769.98px) {
+        .second-beauty-la-grap-img,
+        .first-beauty-la-grap-img {
+            background-size: 200%;
+        }
+    }
+    
+    @media (max-width: 699.98px) {
+        .nav {
+            display: none;
+        }
+        .mob-menu-btn {
+            display: flex;
+        }
+        .why-la-grap-container {
+            gap: 40px;
+            flex-direction: column;
+            align-items: center;
+        }
+        .why-la-grap-img img {
+            height: auto;
+        }
+        .why-la-grap-img,
+        .la-grap-benefits {
+            width: 70%;
+        }
+        .factors {
+            gap: 30px;
+            flex-direction: column;
+        }
+        .factor {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .factor ul {
+            width: 388px;
+        }
+        .factor span {
+            width: 388px;
+        }
+        .la-grap-exp {
+            padding: 40px 0 20px;
+            align-items: start;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .la-grap-exp p {
+            padding-left: 15px;
+        }
+        .la-grap-desc-first {
+            padding: 30px 17px;
+        }
+        .la-grap-desc-second {
+            padding: 0 20px 53px;
+        }
+        .where-to-buy-solo-img {
+            display: flex;
+        }
+        .where-to-buy-solo-img img {
+            width: 100%;
+        }
+        .where-to-buy-solo .container {
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+        .where-to-buy-solo p {
+            font-size: 16px;
+            max-width: 645px;
+            padding-bottom: 30px;
+        }
+    }
+    
+    @media (max-width: 663.98px) {
+        .hero h1 {
+            padding: 40px 0 0px;
+        }
+        .skin-changes-contain h3 {
+            padding: 20px 0 10px;
+        }
+        .skin-changes-contain p {
+            padding-bottom: 20px;
+        }
+        .theory {
+            flex-direction: column;
+            gap: 0;
+        }
+        .theory-contain h3 {
+            padding-top: 20px;
+            padding-bottom: 14px;
+        }
+        .theory-contain h3,
+        .theory-contain p {
+            padding-left: 17px;
+        }
+        .theories-of-aging .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .footer-bottom-row ul {
+            padding: 20px 0;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .where-to-buy-sec-imgs {
+            padding: 30px 0 40px;
+        }
+        select {
+            padding: 0.3em 2em 0.3em 0.5em;
+        }
+        .where-to-buy-sec-imgs img {
+            width: 49%;
+        }
+        .reason-desc {
+            padding: 20px 30px 0 20px;
+        }
+        .la-grap-container {
+            flex-direction: column;
+        }
+        .second-beauty-la-grap-img,
+        .first-beauty-la-grap-img {
+            background-size: 250%;
+        }
+    }
+    
+    @media (max-width: 599.98px) {
+        .hero-two {
+            display: none;
+        }
+        .hero-one {
+            width: 100%;
+        }
+        .hero-one-container {
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .hero br {
+            display: none;
+        }
+        .hero h1 {
+            text-align: center;
+        }
+        .hero-one-container img {
+            margin: 0 auto;
+            display: flex;
+        }
+        .hero {
+            display: flex;
+            height: 605px;
+        }
+        .skin-changes-container {
+            flex-direction: column;
+            gap: 0;
+        }
+        .materials {
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+        .materials-item {
+            width: 70%;
+        }
+        .footer-warning p {
+            font-size: 18px;
+        }
+        .choose-items {
+            flex-direction: column;
+            align-items: center;
+            display: flex;
+        }
+        .choose-item {
+            width: 90%;
+        }
+        .chooses-text p {
+            font-size: 16px;
+            max-width: 600px;
+        }
+        .chooses-text {
+            border: 3px solid #87A646;
+            padding: 20px 17px;
+            margin: 40px 0 70px;
+        }
+        .faq-list label {
+            font-weight: 400;
+            font-size: 18px;
+        }
+        .faq-link {
+            padding: 40px 0;
+        }
+        .faq-list {
+            max-width: 697px;
+            gap: 10px;
+        }
+        .reason {
+            flex-direction: column-reverse;
+        }
+        .reason-img img {
+            margin: 15px auto;
+            width: 75%;
+        }
+        .reason-link {
+            padding-bottom: 20px;
+        }
+        .article-desc {
+            padding: 13px 0 13px 17px;
+            margin: 30px 0;
+        }
+    }
+    
+    @media (max-width: 534.98px) {
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+        }
+        .header-logo img {
+            width: 53px;
+            height: 40px;
+        }
+        .mob-menu-btn {
+            width: 40px;
+            height: 40px;
+        }
+        .hamburger {
+            row-gap: 4px;
+            width: 25px;
+        }
+        .hamburger hr {
+            height: 3px;
+        }
+        .hero h1 {
+            font-size: 40px;
+            line-height: 120%;
+        }
+        h2 {
+            font-size: 30px;
+            line-height: 35px;
+            padding: 40px 0 30px;
+        }
+        .skin-changes-desc p {
+            font-size: 16px;
+            padding: 24px;
+        }
+        .where-to-buy-sec p {
+            margin: 0 auto 30px;
+            font-size: 16px;
+            text-align: left;
+            max-width: 500px;
+        }
+        .beauty-la-grap-first {
+            /* height: none; */
+            flex-direction: column;
+            height: 520px;
+        }
+        .beauty-la-grap-first-list,
+        .beauty-la-grap-second-list {
+            height: 360px;
+        }
+        .beauty-la-grap-second {
+            height: 520px;
+            flex-direction: column-reverse;
+        }
+        .second-beauty-la-grap-img,
+        .first-beauty-la-grap-img {
+            background-size: 100%;
+            height: 260px;
+        }
+        .first-beauty-la-grap-img,
+        .second-beauty-la-grap-img,
+        .beauty-la-grap-first-list,
+        .beauty-la-grap-second-list {
+            width: 100%;
+        }
+        .page-title h1 {
+            font-size: 30px;
+            line-height: 35px;
+            padding: 65px 0;
+        }
+        .faq-list label {
+            font-size: 16px;
+        }
+        .ask-question-btn a {
+            width: 200px;
+            height: 50px;
+        }
+        .article-page-title h1 {
+            padding: 60px 20px;
+            font-size: 30px;
+        }
+        .article-page-img {
+            height: 318px;
+            background-position: inherit;
+        }
+        .article-container h2 {
+            font-size: 30px;
+            padding: 15px 0;
+        }
+        .article-container ul li,
+        .article-container ol li {
+            font-size: 16px;
+        }
+        .article-container span {
+            font-size: 18px;
+            padding: 10px 0;
+        }
+        .green-wrapper-text p {
+            font-size: 16px;
+            padding-left: 13px;
+        }
+        .green-wrapper .container {
+            padding: 28px 20px;
+        }
+        .articles-links a,
+        .articles-links span {
+            font-size: 18px;
+        }
+        span.del-span {
+            display: none;
+        }
+        .articles-links {
+            padding: 60px 0;
+        }
+    }
+    
+    @media (max-width: 464.98px) {
+        .reason-img img {
+            margin: 0;
+            width: 100%;
+        }
+    }
+    
+    @media (max-width: 425.98px) {
+        .materials-item {
+            width: 100%;
+        }
+        .factor ul {
+            width: 320px;
+        }
+        .factor span {
+            width: 320px;
+        }
+    }
+    
+    @media (max-width: 375.98px) {
+        .hero-one-container img {
+            max-width: 100%;
+        }
+        select {
+            width: 100%;
+        }
+        .second-beauty-la-grap-img,
+        .first-beauty-la-grap-img {
+            background-size: 120%;
+        }
+    }
