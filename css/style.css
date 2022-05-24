@@ -1002,7 +1002,7 @@
     .article-page-img {
         background-color: #F3F6EC;
         background-image: url(../img/test-article-photo.png);
-        background-position: 20%;
+        background-position: 100%;
         background-repeat: no-repeat;
     }
     
@@ -1186,6 +1186,9 @@
             font-size: 20px;
             padding-bottom: 8px;
         }
+        .article-page-img {
+        background-position: 20%;
+    }
     }
     
     @media (max-width: 1120.98px) {
