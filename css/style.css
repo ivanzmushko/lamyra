@@ -1,5 +1,6 @@
     html {
         height: 100%;
+        scroll-behavior: smooth;
     }
     
     body {
@@ -252,7 +253,7 @@
     }
     
     .factors-container h2 {
-        padding: 50px 0 60px;
+        padding: 100px 0 60px;
     }
     
     .factors-container {
@@ -413,7 +414,6 @@
         font-family: 'Roboto';
         font-weight: 300;
         font-size: 24px;
-        max-width: 700px;
         line-height: 150%;
         color: #454545;
     }
@@ -424,20 +424,17 @@
     }
     
     .la-grap-desc-first {
-        padding: 60px 80px 40px 200px;
+        padding: 60px;
         display: flex;
-        justify-content: end;
     }
     
     .la-grap-desc-second {
-        padding: 0 84px 53px 200px;
+        padding: 0 60px 60px;
         display: flex;
-        justify-content: end;
     }
     
     .la-grap-desc-second p {
         border: 3px solid #87A646;
-        max-width: 600px;
         padding: 40px;
     }
     
@@ -525,10 +522,8 @@
     .faq-list {
         display: flex;
         flex-direction: column;
-        max-width: 697px;
         gap: 20px;
     }
-    /* скрываем чекбоксы и блоки с содержанием */
     
     .hide,
     .hide+label~div {
@@ -602,16 +597,9 @@
         }
     }
     
-    .faq-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
     .hide+label:before {
         color: #87A646;
-        content: "↓";
-        border: 2px solid #87A646;
+        content: " ";
         display: block;
         float: left;
         font-size: 26px;
@@ -625,11 +613,12 @@
         -moz-border-radius: 50%;
         border-radius: 50%;
         margin-right: 25px;
-        margin-bottom: 40px;
+        background-image: url("data:image/svg+xml;charset=UTF-8, %3csvg width='30' height='30' viewBox='0 0 30 30' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' clip-rule='evenodd' d='M1.875 15C1.875 18.481 3.25781 21.8194 5.71922 24.2808C8.18064 26.7422 11.519 28.125 15 28.125C18.481 28.125 21.8194 26.7422 24.2808 24.2808C26.7422 21.8194 28.125 18.481 28.125 15C28.125 11.519 26.7422 8.18064 24.2808 5.71922C21.8194 3.25781 18.481 1.875 15 1.875C11.519 1.875 8.18064 3.25781 5.71922 5.71922C3.25781 8.18064 1.875 11.519 1.875 15ZM30 15C30 18.9782 28.4196 22.7936 25.6066 25.6066C22.7936 28.4196 18.9782 30 15 30C11.0218 30 7.20644 28.4196 4.3934 25.6066C1.58035 22.7936 0 18.9782 0 15C0 11.0218 1.58035 7.20644 4.3934 4.3934C7.20644 1.58035 11.0218 0 15 0C18.9782 0 22.7936 1.58035 25.6066 4.3934C28.4196 7.20644 30 11.0218 30 15ZM15.9375 8.4375C15.9375 8.18886 15.8387 7.9504 15.6629 7.77459C15.4871 7.59877 15.2486 7.5 15 7.5C14.7514 7.5 14.5129 7.59877 14.3371 7.77459C14.1613 7.9504 14.0625 8.18886 14.0625 8.4375V19.2994L10.0387 15.2738C9.86271 15.0977 9.62395 14.9988 9.375 14.9988C9.12605 14.9988 8.88729 15.0977 8.71125 15.2738C8.53521 15.4498 8.43632 15.6885 8.43632 15.9375C8.43632 16.1865 8.53521 16.4252 8.71125 16.6012L14.3363 22.2262C14.4233 22.3136 14.5268 22.3828 14.6407 22.4301C14.7546 22.4773 14.8767 22.5017 15 22.5017C15.1233 22.5017 15.2454 22.4773 15.3593 22.4301C15.4732 22.3828 15.5767 22.3136 15.6637 22.2262L21.2887 16.6012C21.4648 16.4252 21.5637 16.1865 21.5637 15.9375C21.5637 15.6885 21.4648 15.4498 21.2887 15.2738C21.1127 15.0977 20.874 14.9988 20.625 14.9988C20.376 14.9988 20.1373 15.0977 19.9613 15.2738L15.9375 19.2994V8.4375Z' fill='%2387A646'/%3e%3c/svg%3e ");
     }
     
     .hide:checked+label:before {
-        content: "↑";
+        content: " ";
+        background-image: url("data:image/svg+xml;charset=UTF-8, %3csvg width='30' height='30' viewBox='0 0 30 30' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' clip-rule='evenodd' d='M28.125 15C28.125 11.519 26.7422 8.18064 24.2808 5.71922C21.8194 3.25781 18.481 1.875 15 1.875C11.519 1.875 8.18064 3.25781 5.71922 5.71922C3.25781 8.18064 1.875 11.519 1.875 15C1.875 18.481 3.25781 21.8194 5.71922 24.2808C8.18064 26.7422 11.519 28.125 15 28.125C18.481 28.125 21.8194 26.7422 24.2808 24.2808C26.7422 21.8194 28.125 18.481 28.125 15ZM0 15C0 11.0218 1.58035 7.20644 4.3934 4.3934C7.20644 1.58035 11.0218 0 15 0C18.9782 0 22.7936 1.58035 25.6066 4.3934C28.4196 7.20644 30 11.0218 30 15C30 18.9782 28.4196 22.7936 25.6066 25.6066C22.7936 28.4196 18.9782 30 15 30C11.0218 30 7.20644 28.4196 4.3934 25.6066C1.58035 22.7936 0 18.9782 0 15ZM14.0625 21.5625C14.0625 21.8111 14.1613 22.0496 14.3371 22.2254C14.5129 22.4012 14.7514 22.5 15 22.5C15.2486 22.5 15.4871 22.4012 15.6629 22.2254C15.8387 22.0496 15.9375 21.8111 15.9375 21.5625V10.7006L19.9613 14.7262C20.1373 14.9023 20.376 15.0012 20.625 15.0012C20.874 15.0012 21.1127 14.9023 21.2887 14.7262C21.4648 14.5502 21.5637 14.3115 21.5637 14.0625C21.5637 13.8135 21.4648 13.5748 21.2887 13.3988L15.6637 7.77375C15.5767 7.68644 15.4732 7.61718 15.3593 7.56991C15.2454 7.52265 15.1233 7.49833 15 7.49833C14.8767 7.49833 14.7546 7.52265 14.6407 7.56991C14.5268 7.61718 14.4233 7.68644 14.3363 7.77375L8.71125 13.3988C8.53521 13.5748 8.43632 13.8135 8.43632 14.0625C8.43632 14.3115 8.53521 14.5502 8.71125 14.7262C8.88729 14.9023 9.12605 15.0012 9.375 15.0012C9.62395 15.0012 9.86271 14.9023 10.0387 14.7262L14.0625 10.7006V21.5625Z' fill='%2387A646'/%3e%3c/svg%3e ");
     }
     
     .faq-sec h2 {
@@ -770,7 +759,7 @@
     select.select-where-to-buy {
         background-image: linear-gradient(45deg, transparent 50%, white 50%), linear-gradient(135deg, white 50%, transparent 50%), linear-gradient(to right, #87A646, #87A646);
         background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), 100% 0;
-        background-size: 5px 5px, 5px 5px, 2.5em 2.5em;
+        background-size: 5px 5px, 5px 5px, 2.5em 3.5em;
         background-repeat: no-repeat;
     }
     
@@ -800,8 +789,8 @@
     }
     
     .materials-item {
-        width: 32%;
-        border: 3px solid #87A646;
+        width: 31%;
+        border: 4px solid #87A646;
     }
     
     .materials-item-title {
@@ -829,6 +818,20 @@
     
     .materials-item-title a {
         color: #454545;
+    }
+    
+    .faq-list a {
+        font-weight: 300;
+        font-size: 16px;
+        color: #FFFFFF;
+    }
+    
+    .faq-list-solo a {
+        color: #454545;
+    }
+    
+    .faq-list a:hover {
+        opacity: 0.5;
     }
     
     .materials-link {
@@ -1259,10 +1262,12 @@
         .useful-materials .materials-item:nth-child(3) {
             display: none;
         }
+        .materials {
+            display: flex;
+            justify-content: space-evenly;
+        }
         .materials-item-img img {
             width: 100%;
-            /* max-width: 389px; */
-            max-height: 205px;
         }
         .la-grap-benefit {
             padding-bottom: 10px;
@@ -1523,7 +1528,7 @@
             padding: 40px 0 27px;
         }
         .materials-item {
-            width: 48%;
+            width: 43%;
         }
         .article-page-title h1 {
             font-size: 40px;
@@ -1740,7 +1745,6 @@
             padding: 40px 0;
         }
         .faq-list {
-            max-width: 697px;
             gap: 10px;
         }
         .reason {
