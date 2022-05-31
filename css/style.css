@@ -14,6 +14,7 @@
         flex: 0 0 auto;
         position: sticky;
         top: 0;
+        z-index: 99999;
     }
     
     main {
@@ -253,7 +254,7 @@
     }
     
     .factors-container h2 {
-        padding: 100px 0 60px;
+        padding: 40px 0 60px;
     }
     
     .factors-container {
@@ -469,7 +470,7 @@
         width: 33.33%;
     }
     
-    .choose-item:nth-child(3) {
+    .choose-item:hover {
         background: #F3F6EC;
     }
     
@@ -824,6 +825,7 @@
         font-weight: 300;
         font-size: 16px;
         color: #FFFFFF;
+        word-wrap: break-word;
     }
     
     .faq-list-solo a {
@@ -1594,6 +1596,9 @@
         .factor span {
             width: 388px;
         }
+        .la-grap-exp span {
+            padding-left: 15px;
+        }
         .la-grap-exp {
             padding: 40px 0 20px;
             align-items: start;
@@ -1681,6 +1686,9 @@
     }
     
     @media (max-width: 599.98px) {
+        .hide:checked+label+div {
+            margin-left: 20px;
+        }
         .hero-two {
             display: none;
         }
@@ -1744,9 +1752,6 @@
         .faq-link {
             padding: 40px 0;
         }
-        .faq-list {
-            gap: 10px;
-        }
         .reason {
             flex-direction: column-reverse;
         }
@@ -1760,6 +1765,23 @@
         .article-desc {
             padding: 13px 0 13px 17px;
             margin: 30px 0;
+        }
+        .agink-link {
+            justify-content: start;
+            padding-left: 17px;
+        }
+        .hide+label:before {
+            position: absolute;
+            left: 7px;
+        }
+        .faq-list label {
+            padding-left: 30px;
+        }
+        .faq-list-solo .hide:checked+label+div {
+            margin-left: 0;
+            padding: 27px 18px 27px 30px;
+            background: #F3F6EC;
+            color: #454545;
         }
     }
     
