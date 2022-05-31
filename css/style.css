@@ -25,6 +25,10 @@
         flex: 0 0 auto;
     }
     
+    input {
+        outline: 0 !important;
+    }
+    
     body,
     input,
     button,
