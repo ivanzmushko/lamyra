@@ -3,6 +3,10 @@
         scroll-behavior: smooth;
     }
     
+    * {
+        -webkit-tap-highlight-color: transparent;
+    }
+    
     body {
         display: flex;
         flex-direction: column;
