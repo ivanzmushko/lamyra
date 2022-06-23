@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,regular,500,600,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Tenor+Sans:regular" rel="stylesheet" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/form.css">
+</head>
+
+<body>
+    <div class="popup">
+        <div class="object">
+            <div class="form-top">
+                <span class="form-title">Задать вопрос</span>
+                <span class="form-close"></span>
+            </div>
+            <div class="mfeedback">
+                <form action="/faq.php" method="POST">
+                    <input type="hidden" name="sessid" id="sessid" value="903fec0d6dbe1587df5247a8563ab843">
+                    <div class="mf-name">
+                        <div class="mf-text">
+                            Ваше имя: <span class="mf-req">*</span> </div>
+                        <input type="text" name="user_name" required>
+                    </div>
+                    <div class="mf-email">
+                        <div class="mf-text">
+                            Ваш E-mail: <span class="mf-req">*</span> </div>
+                        <input type="text" name="user_email" required>
+                    </div>
+
+                    <div class="mf-message">
+                        <div class="mf-text">
+                            Ваш вопрос<span class="mf-req">*</span> </div>
+                        <textarea name="MESSAGE" rows="5" cols="40" required></textarea>
+                    </div>
+
+                    <input type="hidden" name="PARAMS_HASH" value="16838dd18c06629a73439f8f8012d6cb">
+                    <input type="submit" name="submit" value="Отправить">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

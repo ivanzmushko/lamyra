@@ -1,0 +1,127 @@
+body {
+    background-color: black;
+    line-height: 1;
+}
+
+.object {
+    width: 554px;
+    height: 592px;
+    background-color: #ffff;
+}
+
+.popup {
+    position: fixed;
+    z-index: 100;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-close {
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    width: 20px;
+    height: 20px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.form-close:hover {
+    opacity: 1;
+}
+
+.form-close:before,
+.form-close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 20px;
+    width: 2px;
+    background: #FFFFFF;
+}
+
+.form-close:before {
+    transform: rotate(45deg);
+}
+
+.form-close:after {
+    transform: rotate(-45deg);
+}
+
+.form-title {
+    font-family: 'Tenor Sans';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.form-top {
+    background: #87A646;
+    padding: 26px 0 26px 40px;
+}
+
+.mfeedback {
+    padding: 10px 40px 30px 35px;
+}
+
+textarea[name=MESSAGE] {
+    resize: none;
+    width: 100%;
+    height: 83px;
+}
+
+div.mf-name input,
+div.mf-email input {
+    height: 38px;
+    width: 100%;
+}
+
+.mf-text {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #454545;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+input[type="submit"] {
+    background: #87A646;
+    border-radius: 50px;
+    padding: 19px 50px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 30px;
+}
+
+div.mf-name input,
+div.mf-email input,
+textarea[name=MESSAGE] {
+    border: 1px solid #87A646;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 16px;
+    padding: 5px;
+}
+
+@media (max-width: 599.98px) {
+    .object {
+        width: 100%;
+        height: 100%;
+    }
+    .popup {
+        position: relative;
+        left: 0;
+        top: 0;
+        transform: none;
+    }
+}
